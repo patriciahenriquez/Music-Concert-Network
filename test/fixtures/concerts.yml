@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  date: 2015-02-06 10:57:18
+  venue: MyText
+  city: MyText
+  ticket_price: 9.99
+  artist: MyText
+  description: MyText
+
+two:
+  date: 2015-02-06 10:57:18
+  venue: MyText
+  city: MyText
+  ticket_price: 9.99
+  artist: MyText
+  description: MyText

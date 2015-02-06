@@ -1,0 +1,31 @@
+<h1>  Go ahead, add a new concert </h1>
+
+<!-- <form method="post" action="/create"> 
+<label for="venue">Venue:</label>
+<input type:"text" name="venue" placeholder="Enter venue name here">
+<label for="city">City:</label>
+<input type="text" name="city" placeholder="Enter city here">
+<label for="ticket_price">Ticket Price</label>
+<input type="number" -->
+
+<%= form_for [@concert] do |f| %>
+	<%= f.label :artist %>
+	<%= f.text_field :artist %>
+	<%= f.label :venue %>
+	<%= f.text_field :venue %>
+	<%= f.label :city %>
+	<%= f.text_field :city %>
+	<%= f.label :description %>
+	<%= f.text_field :description %>
+	<%= f.label :date %>
+	<%= f.datetime_field :date %>
+	<%= f.label :ticket_price %>
+	<%= f.number_field :ticket_price %>
+
+	<%= f.submit 'Add' %>
+<% end %>
+
+
+
+
+
